@@ -9,7 +9,7 @@ public class Exercise_1_01 {
 	}
 	
 	public static void main(String[] args) {
-		int[] arr = {1,2,3,4,5};
+		int[] arr = {2,4,5,1,3};
 		System.out.println(findAverage(arr, 0, 0)); // should output 3
 	}
 
