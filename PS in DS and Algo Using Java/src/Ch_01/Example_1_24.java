@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Example_1_24 {
 	
-	public int maxSumContSubArr(int[] arr) {
+	public static int maxSumContSubArr(int[] arr) {
 		int maxSoFar = 0, maxEndingHere = 0;
 		for(int i = 0; i < arr.length; i++) {
 			maxEndingHere += arr[i];
@@ -20,7 +20,8 @@ public class Example_1_24 {
 	}
 	
 	public static void main(String[] args) {
-		
+		int[] arr = {1,2,-25,50};
+		System.out.println(maxSumContSubArr(arr));
 	}
 
 }
