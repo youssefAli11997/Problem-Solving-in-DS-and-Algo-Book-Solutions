@@ -29,8 +29,8 @@ public class Exercise_1_05 {
 		int[] arr3 = {0,0,0,0,0};
 		System.out.println(secondLargest(arr3)); // outputs 0
 		
-		int[] arr4 = {11,3,-2,4,-5}; // outputs 4
-		System.out.println(secondLargest(arr4));
+		int[] arr4 = {11,3,-2,4,-5}; 
+		System.out.println(secondLargest(arr4)); // outputs 4
 	}
 
 }
