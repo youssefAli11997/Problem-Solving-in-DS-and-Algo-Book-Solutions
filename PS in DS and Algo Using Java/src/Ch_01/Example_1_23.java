@@ -9,6 +9,10 @@ public class Example_1_23 {
 	
 	// the book solution // a nice trick
 	public static void rotateByK(int[] arr, int k) {
+		if(k > arr.length){
+			System.out.println("Invalid k");
+			return;
+		}
 		reverseArr(arr, 0, k-1);
 		reverseArr(arr, k, arr.length - 1);
 		reverseArr(arr, 0, arr.length - 1);
@@ -25,6 +29,10 @@ public class Example_1_23 {
 	
 	// another solution // just to practice
 	public static void rotateByK_2(int[] arr, int k) {
+		if(k > arr.length){
+			System.out.println("Invalid k");
+			return;
+		}
 		int[] temp = new int[k];
 		// put the first k elements in a temporary array
 		for(int i = 0; i < k; i++) {
@@ -62,7 +70,7 @@ public class Example_1_23 {
 		int arr2[] = {1,2,3,4,5};
 		System.out.print("Before : ");
 		printArr(arr2);
-		rotateByK_2(arr2, 2);
+		rotateByK_2(arr2, 5);
 		System.out.print("After  : ");
 		printArr(arr2);
 	}
