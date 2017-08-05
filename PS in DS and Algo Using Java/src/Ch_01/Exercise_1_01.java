@@ -1,3 +1,7 @@
+/*
+ * Find average of all the elements in an array.
+ */
+
 package Ch_01;
 
 public class Exercise_1_01 {
