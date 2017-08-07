@@ -1,3 +1,7 @@
+/*
+ * Determining a path from vertex u to vertex v
+ */
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
